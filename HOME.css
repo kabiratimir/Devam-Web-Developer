@@ -1,0 +1,178 @@
+/* 
+        .navbar{
+            display: flex;
+            background-color: black;
+            width: 100%;
+            height: 100%;
+        }
+        .nav{
+            position: relative;
+            left: 200px;
+            padding: 200px;
+        }
+        .H{
+            margin-left: 250px;
+            padding: 200px;
+        }
+
+        .V{
+            margin-left: 0px;
+            padding: 20px;
+        }
+
+        .M{
+            margin-left: 2px;
+            padding: 20px;
+        }
+
+        .F{
+            margin-left: 2px;
+            padding: 20px;
+        }
+
+        .C{
+            margin-left: 2px;
+            padding: 20px;
+        } 
+        
+        
+            <header>
+        <nav class="navigation">
+        <div class="navbar">
+            <ul><div class="nav">
+                <th><a href="#Home" class="H">Home</a></th>
+                <th><a href="#View" class="V">View</a></th>
+                <th><a href="#Manue" class="M">Manue</a></th>
+                <th><a href="#Food items" class="F">Food items</a></th>
+                <th><a href="#Contact" class="C">Contact</a></th></div>
+            </ul>
+        <!-- <th><a href="#Home">Home</a></th>
+        <th><a href="#View">View</a></th>
+        <th><a href="#Manue">Manue</a></th>
+        <th><a href="#Food items">Food items</a></th>
+        <th><a href="#Contact">Contact</a></th> -->
+        </div>
+        </nav>
+    </header>  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: black;
+    height: 3600px;
+}
+/* .LOGO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 200px;
+    position: relative;
+    left: 600px;
+    top: 15px;
+} */
+
+.LOGO{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    position: relative;
+    top: 15px;
+    left: 600px;
+    /* animation-name: DEVAM;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-direction: normal;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;animation-timing-function: ease-in; 
+    
+    @keyframes DEVAM{
+    from{
+        width: 0px;
+    }
+
+    to{
+        width: 0px;
+    }
+}*/
+}
+
+.LOGO:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+.IMG1{
+    margin-left: 10px;
+    width: 1270px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.IMG1:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 2s;
+    transform-origin: 2s;
+}
+.IMG2{
+    margin-left: 10px;
+    width: 490px;
+    margin-left: 500px;
+    position: relative;
+    top: 60px;
+}
+.IMG2:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 2s;
+    transform-origin: 2s;
+}
+.IMG3{
+    margin-left: 10px;
+    width: 1000px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+.IMG3:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 2s;
+    transform-origin: 2s;
+}
+.LOGIN{
+   background-color: blue; 
+   border-radius: 10px;
+   border: none;
+   height: 50px;
+   width: 100px;
+   position: relative;
+   top: 200px;
+}
+.LOGIN:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 2s;
+}
